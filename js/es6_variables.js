@@ -1,16 +1,21 @@
 // ES6 VARIABLES
 
-// Classic way: var
+// === Classic way: var ===
 var changeme = true;
 console.log("Var value before modifying it:", changeme);
 changeme = false;
 console.log("Var value after modifying it:", changeme, "\n");
 
-// Constants: const
+// === Constants: const ===
 const unmodifiable = "You cannot modify me!";
 // unmodifiable = "This would throw an error";
+// However, it's possible to modify constant object properties
+const order = { items: ["pizza", "fries"], price: 15 };
+console.log("Const object initialization:", order);
+order.price = 12.5;
+console.log("Const object modified:", order, "\n");
 
-// Scope variables: let
+// === Scope variables: let ===
 // Old case - no scope
 var name = "Javier";
 console.log("Var initial value:", name);
