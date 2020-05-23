@@ -11,10 +11,10 @@ There is no much content yet to see here, but the main purpose of this project i
 
 - [Arrow functions](js/arrow_functions.js)
 - [Javascript classes](js/classes.js)
-- [Default function parameters](js/defaut_function_params.js)
+- [Default function parameters](js/default_function_params.js)
 - [Destructuring Assignment](js/destructuring_assignment.js)
 - [Object literal enhacement](js/object_literal_enhancement.js)
 - [Promises](js/promises.js)
-- [Spread operator](js/spread_operators.js)
+- [Spread operator](js/spread_operator.js)
 - [Template literals](js/template_literals.js)
 - [Variables](js/variables.js)
